@@ -32,3 +32,49 @@ a {
   padding-left: 10px;
 
 }
+
+div {
+  border: 1px solid black;
+}
+
+.content {
+  display: flex;
+  border: 1px solid black;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.column-large {
+  display: flex;
+  width: 630px;
+  border: 1px solid black;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.column-medium {
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+  justify-content: center;
+
+}
+
+.column-small {
+  display: flex;
+  width: 240px;
+  border: 1px solid black;
+  justify-content: flex-end;
+}
+
+.stories{
+  border: 1px solid black;
+}
+
+.mini-stories{
+  border: 1px solid black;
+}
+
+.narrative {
+ color: red;
+}
